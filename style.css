@@ -1,0 +1,35 @@
+h1 {
+  color: rgb(58, 56, 56);
+}
+
+h4 {
+  color: rgb(58, 56, 56);
+}
+
+.bg-card {
+  background-color: rgb(206, 206, 206);
+}
+
+.btn-clr {
+  background-color: rgb(173, 173, 173) !important;
+  color: white !important;
+}
+
+.btn-clr:hover {
+  background-color: rgb(156, 156, 156) !important;
+  color: white !important;
+}
+
+@media (min-width: 768px) {
+  .bg-card {
+    background-color: white;
+  }
+  .btn-clr {
+    background-color: rgb(110, 110, 110) !important;
+    color: white !important;
+  }
+  .btn-clr:hover {
+    background-color: rgb(77, 77, 77) !important;
+    color: white !important;
+  }
+}
